@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p{
+    padding: 20px 0;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.content{
+    padding: 5%;
+    color: #fff;
+    background: linear-gradient(143.87deg, #190422 21.1%, #190422 102.96%);
+}
+
+/* ================Start Header================ */
+
+header{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul{
+    gap: 70px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .btn{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #BC8AFC;
+}
+
+/* ================Header End==================== */
+
+/* ================Start Hero==================== */
+
+.hero{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero_left{
+    width: 50%;
+}
+
+.hero_right{
+    width: 50%;
+}
+
+.btns{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #BC8AFC;
+}
+
+/* ================Hero End====================== */
+
+/* ================Start Boxes=================== */
+
+.boxes{
+    margin: 0 5%;
+    margin-top: -50px;
+    padding: 3% 5%;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgb(220, 220, 220);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ================Boxes End===================== */
+
+/* ================Start Section================= */
+
+section{
+    width: 100%;
+    gap: 100px;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec_left{
+    width: 50%;
+}
+
+.sec_right{
+    width: 50%;
+}
+
+/* ================Section End=================== */
+
+/* ================Start Main==================== */
+
+main{
+    padding: 5%;
+    padding-bottom: 15%;
+    background: linear-gradient(to right, #FFFFFF, #f3f9ff);
+}
+
+.main_parents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_child{
+    margin-top: 30px;
+}
+
+/* ================Main End====================== */
+
+/* ================Start Article================= */
+
+article{
+    height: 470px;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #190422;
+}
+
+.images{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.art_left  h2{
+    color: #fff;
+}
+
+.art_right img{
+    position: relative;
+    top: -70px;
+}
+
+/* ================Article End=================== */
+
+/* ================Start Aside=================== */
+
+aside{
+    width: 100%;
+    padding: 5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aside_left{
+    width: 50%;
+}
+
+.aside_right{
+    width: 50%;
+}
+
+.aside_img{
+    display: flex;
+    padding-top: 20px;
+}
+
+/* ================Aside End===================== */
+
+/* ================Start Cards=================== */
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card_child{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    padding: 2% 5%;
+    border: none;
+    box-shadow: 1px 1px 10px rgb(232, 231, 231);
+}
+
+/* ================Cards End===================== */
+
+/* ================Start Footer================= */
+
+footer{
+    color: #fff;
+    margin-top: 5%;
+    padding: 5%;
+    background-color: #190422;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_left ul{
+    list-style: none;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+.footer_right input{
+    padding: 3% 10%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.footer_right button{
+    padding: 3% 5%;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #BC8AFC;
+    position: relative;
+    right: 10px;
+}
+
+/* ================Footer End=================== */
+
+
